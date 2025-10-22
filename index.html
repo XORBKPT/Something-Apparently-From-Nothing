@@ -75,9 +75,9 @@
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <h1 class="text-xl md:text-2xl font-bold text-white">Apparently Something From Nothing - 93E3 BEBC C164 D766</h1>
             <nav class="flex items-center space-x-4 md:space-x-8 text-sm md:text-base">
-                <a href="#fizz" id="nav-fizz" class="nav-link active-nav">1. The Cosmic Fizz</a>
-                <a href="#bank" id="nav-bank" class="nav-link inactive-nav">2. The Energy Bank</a>
-                <a href="#seed" id="nav-seed" class="nav-link inactive-nav">3. The Cosmic Seed</a>
+                <a href="#fizz" id="nav-fizz" class="nav-link active-nav">1. Fizz</a>
+                <a href="#bank" id="nav-bank" class="nav-link inactive-nav">2. Bank</a>
+                <a href="#seed" id="nav-seed" class="nav-link inactive-nav">3. Dot</a>
             </nav>
         </div>
     </header>
@@ -88,7 +88,7 @@
             <canvas id="fizzCanvas" class="absolute top-0 left-0 w-full h-full z-0"></canvas>
             <div class="z-10 flex flex-col items-center">
                 <div class="max-w-3xl p-6 md:p-8 rounded-xl control-panel">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Metaphor 1: The Cosmic Fizz</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Metaphor 1: Fizz</h2>
                     <p class="text-base md:text-lg text-gray-300 mb-6">The quantum foam. What we perceive as empty space is, at tiny scales, a roiling sea of potential. Particles constantly emerge from and annihilate back into this vacuum, a phenomenon governed by quantum uncertainty. This "fizz" is the baseline reality of our universe—not nothing, but a dynamic stage of fleeting existence.</p>
                     <div class="flex items-center justify-center space-x-4">
                         <label for="energySlider" class="font-medium">Vacuum Energy Level:</label>
@@ -103,7 +103,7 @@
              <canvas id="bankCanvas" class="absolute top-0 left-0 w-full h-full z-0"></canvas>
              <div class="z-10 flex flex-col items-center">
                 <div class="max-w-3xl p-6 md:p-8 rounded-xl control-panel">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Metaphor 2: The Energy Bank of the Cosmos</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Metaphor 2: Bank</h2>
                     <p class="text-base md:text-lg text-gray-300 mb-4">Heisenberg's Uncertainty Principle allows for transaction: energy can be "borrowed" from the vacuum to create a particle, as long as it's paid back quickly. A cosmic bank loan. The larger the energy loan (creating a more massive particle), the shorter the repayment period (the particle's lifetime). Press the button to witness one of these fleeting transactions.</p>
                     <button id="createParticleBtn" class="action-button bg-[#4A90E2] text-white font-bold py-3 px-6 rounded-lg mb-4">Request Energy Loan</button>
                     <div class="w-full max-w-sm text-left">
@@ -127,7 +127,7 @@
             <canvas id="seedCanvas" class="absolute top-0 left-0 w-full h-full z-0"></canvas>
             <div class="z-10 flex flex-col items-center">
                 <div class="max-w-3xl p-6 md:p-8 rounded-xl control-panel">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Metaphor 3: The Cosmic Seed</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Metaphor 3: Dot</h2>
                     <p class="text-base md:text-lg text-gray-300 mb-6">How did the structures of the universe, like galaxies, originate? Cosmic inflation says that in the first fraction of a second, the universe expanded exponentially. This stretched microscopic quantum fluctuations from the "fizz" into macroscopic seeds of varying density. The slightly denser regions, born from a random quantum event, became the gravitational anchors for the cosmic web we observe today.</p>
                     <button id="inflateBtn" class="action-button bg-[#E8A87C] text-black font-bold py-3 px-6 rounded-lg">Trigger Inflation</button>
                     <div id="seed-status" class="mt-4 text-xl font-medium text-gray-300 transition-opacity duration-500 opacity-0">A quantum fluctuation is frozen, seeding a future galaxy cluster...</div>
